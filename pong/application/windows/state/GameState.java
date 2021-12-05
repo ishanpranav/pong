@@ -46,23 +46,31 @@ public abstract class GameState implements Drawable
     {
         return this._table;
     }
-
-    /** {@inheritDoc} */
+    
+    /**
+     * Moves the left paddle down.
+     */
     protected void moveLeftDown()
     {
     }
 
-    /** {@inheritDoc} */
+    /**
+     * Moves the left paddle up.
+     */
     protected void moveLeftUp()
     {
     }
 
-    /** {@inheritDoc} */
+    /**
+     * Moves the right paddle down.
+     */
     protected void moveRightDown()
     {
     }
 
-    /** {@inheritDoc} */
+    /**
+     * Moves the right paddle up.
+     */
     protected void moveRightUp()
     {
     }
